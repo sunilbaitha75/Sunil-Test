@@ -3,7 +3,7 @@
 import random
 
 def nameGeneratedNumber(name=None):
-	random_number = random.randrange(6, 15) #Generate random number between 6 to 15
-	print name, random_number				#Print “Name GeneratedNumber”. Eg: “Rahul 11”
+    random_number = random.randrange(6, 15) #Generate random number between 6 to 15
+    print name, random_number               #Print “Name GeneratedNumber”. Eg: “Rahul 11”
 
 nameGeneratedNumber('sunil')
